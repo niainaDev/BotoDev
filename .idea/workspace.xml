@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc4aa387-2d52-4122-98e6-8f1a97b2703c" name="Default Changelist" comment="" />
+    <list default="true" id="bc4aa387-2d52-4122-98e6-8f1a97b2703c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Helpers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.directory" beforeDir="false" afterPath="$PROJECT_DIR$/.directory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/larashop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/larashop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/products/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/products/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/products/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/products/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +30,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -140,6 +156,7 @@
       <path value="$PROJECT_DIR$/vendor/phar-io/version" />
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
       <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/hardevine/shoppingcart" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gDihWrbrH27c781O7Skr3sSH56" />
@@ -150,6 +167,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Symfony/Agence/my_project" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -167,7 +185,12 @@
       <option name="presentableId" value="Default" />
       <updated>1597655700583</updated>
       <workItem from="1597655721651" duration="3289000" />
-      <workItem from="1597678371062" duration="6266000" />
+      <workItem from="1597678371062" duration="13856000" />
+      <workItem from="1597764053743" duration="649000" />
+      <workItem from="1597764977733" duration="13140000" />
+      <workItem from="1597935453962" duration="280000" />
+      <workItem from="1597935838940" duration="162000" />
+      <workItem from="1598023864045" duration="55000" />
     </task>
     <servers />
   </component>
@@ -175,9 +198,21 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="0" width="672" height="678" key="search.everywhere.popup" timestamp="1597690195508">
+    <state x="411" y="180" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597784553303">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="0" y="0" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1597690195508" />
+    <state x="411" y="180" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1597784553303" />
+    <state x="466" y="142" width="426" height="475" key="FileChooserDialogImpl" timestamp="1598023931922">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="466" y="142" width="426" height="475" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1598023931922" />
+    <state x="502" y="310" key="NewPhpFileDialog" timestamp="1597783177723">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="502" y="310" key="NewPhpFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1597783177723" />
+    <state x="0" y="0" width="672" height="678" key="search.everywhere.popup" timestamp="1597784511069">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="0" y="0" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1597784511069" />
   </component>
 </project>

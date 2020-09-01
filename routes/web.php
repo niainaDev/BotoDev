@@ -25,7 +25,13 @@ Route::group(['prefix' => 'admin'], function () {
 Auth::routes();
 
 
-Route::resource('products', 'ProductController'); // Patient CRUD
+Route::resource('products', 'ProductController'); // Product CRUD
+
+Route::resource('cart', 'CartController'); // Cart CRUD
+
+Route::get('/viderpanier', function () {
+    \Gloudemans\Shoppingcart\Facades\Cart::destroy();
+});
 
 
 /*
