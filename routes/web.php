@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Patient;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,24 +32,4 @@ Route::get('/viderpanier', function () {
     \Gloudemans\Shoppingcart\Facades\Cart::destroy();
 });
 
-
-/*
-
-//Route::get('/home/{user}', 'PatientController@index')->name('patients.index'); //route vers patient
-
-Route::get('/patient/{id}', 'PatientController@show')->name('patients.show'); //affiche l'information sur un patient séléctionné
-
-Route::resource('patients', 'PatientController'); // Patient CRUD
-
-Route::post('/patients/search', 'PatientController@search')->name('patients.search'); // rechercher patient
-
-Route::get('/pdf', 'PatientController@pdf')->name('patients.pdf');
-
-Route::get('/generatepdf', function (Patient $patient) {
-
-
-    $pdf = PDF::loadView('patients.show',compact('patient'));
-    return $pdf->download('test.pdf');
-});
-
-*/
+Route::get('search', 'ProductController@search')->name('products.search');

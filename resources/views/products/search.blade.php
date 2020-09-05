@@ -73,9 +73,6 @@
         <h1 class="display-4 font-italic ">Bienvenue sur Larashop</h1>
     </div>
 
-    @if (request()->input('q'))
-        <h6>{{ $products->total() }} résultat(s) pour la recherche "{{ request()->q  }}"</h6>
-    @endif
     <div class="row mb-2">
         @yield('content')
     </div>
